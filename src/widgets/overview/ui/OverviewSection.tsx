@@ -10,7 +10,7 @@ const OverviewSection = () => {
           OVERVIEW.
         </h1>
         <div className="w-full max-w-440 mx-auto px-0 sm:px-2 md:px-4 flex flex-col text-center mb-8 sm:mb-10 md:mb-12 lg:mb-14 xl:mb-16">
-          <p className="text-base sm:text-lg md:text-xl lg:text-xl xl:text-2xl whitespace-pre-wrap leading-[160%] italic border-y border-border py-6 sm:py-7 md:py-8 lg:py-9 xl:py-10 mx-2 sm:mx-4 md:mx-6 lg:mx-7 xl:mx-8">
+          <p className="text-base sm:text-lg md:text-xl lg:text-xl xl:text-2xl whitespace-pre-wrap leading-[160%] border-y border-border py-6 sm:py-7 md:py-8 lg:py-9 xl:py-10 mx-2 sm:mx-4 md:mx-6 lg:mx-7 xl:mx-8">
             {OVERVIEW_DESCRIPTION}
           </p>
         </div>

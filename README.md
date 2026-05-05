@@ -9,12 +9,6 @@
 
 <br/>
 
-## 소개
-
-#### 화면만 구현하는 프론트엔드 개발자보다는, 사용자가 서비스를 이용하면서 어떤 부분에서 편하고 불편한지까지 같이 고민하는 개발자에 더 가깝습니다. 기능을 만드는 것도 중요하지만 그 기능이 왜 필요한지, 실제로 사용자 경험에 어떤 영향을 주는지를 생각하면서 개발하는 편입니다. 그래서 단순히 “동작하게 만드는 것”보다 더 나은 구조나 더 좋은 사용 흐름이 있다면 한 번 더 고민해보려고 합니다.
-
-<br/>
-
 ## 기술 스택
 
 **Frontend**
@@ -49,15 +43,17 @@
 
 ## PROJECTS
 
+#### 🎀 [리본: 폐기 상품 나눔 서비스](https://github.com/umc-reborn/Reborn-iOS) (2023/01 ~ 2023/02)
+
 #### 🔤 [렛어스픽: AI기반 영어 학습 서비스](https://github.com/letusGo-Hack/25_05_letuspeak_aitutor) (2025/03 ~ 2025/03)
 
 #### 🎧 [PLUV: 나의 음악 취향 공유 서비스](https://github.com/Central-MakeUs/PLUV-iOS) (2024/09 ~ 2025/02)
 
 #### 🎓 [석박지: 대학원 정보 커뮤니티](https://github.com/SukBakJi/SukBakJi-iOS) (2024/07 ~ 2025/04) - [서비스 이용해보기](https://apps.apple.com/kr/app/%EC%84%9D%EB%B0%95%EC%A7%80/id6743091235)
 
-#### 🎀 [리본: 폐기 상품 나눔 서비스](https://github.com/umc-reborn/Reborn-iOS) (2023/01 ~ 2023/02)
+#### 🤖 델루루: AI 캐릭터 채팅 서비스 (2025/12 ~ 2026/02)
 
-#### 🤖 델루루: AI 캐릭터 채팅 서비스 (2025/12 ~ 진행중) - [서비스 이용해보기](https://delulu.ohrora.org/en)
+#### 🎙️ [톡픽: 상황에 맞는 질문을 추천 서비스](https://github.com/Talk-Pick/TalkPick_iOS) (2025/11 ~ 2026/03) - [서비스 이용해보기](https://apps.apple.com/kr/app/talkpick/id6755369381)
 
 <br>
   

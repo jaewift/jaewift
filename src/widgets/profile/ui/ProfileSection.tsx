@@ -32,7 +32,7 @@ const ProfileSection = ({
       <div className="w-full flex flex-col md:flex-row items-center justify-start gap-4 sm:gap-5 md:gap-6 lg:gap-7 xl:gap-8">
         <Reveal delay={0.3} triggerOnce>
           <Image
-            src="/profile-2026.JPG"
+            src="/profile-2026.jpg"
             alt="증명사진"
             width={240}
             height={240}

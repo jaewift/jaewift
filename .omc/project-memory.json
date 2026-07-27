@@ -1,0 +1,171 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1785131286112,
+  "projectRoot": "/Users/jaegupark/Desktop/jaekyu",
+  "techStack": {
+    "languages": [
+      {
+        "name": "JavaScript/TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "package.json"
+        ]
+      },
+      {
+        "name": "TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "tsconfig.json"
+        ]
+      }
+    ],
+    "frameworks": [
+      {
+        "name": "next",
+        "version": "16.1.6",
+        "category": "fullstack"
+      },
+      {
+        "name": "react",
+        "version": "19.2.3",
+        "category": "frontend"
+      },
+      {
+        "name": "react-dom",
+        "version": "19.2.3",
+        "category": "frontend"
+      }
+    ],
+    "packageManager": "npm",
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": "npm run build",
+    "testCommand": null,
+    "lintCommand": "npm run lint",
+    "devCommand": "npm run dev",
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start",
+      "lint": "eslint"
+    }
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": true,
+    "workspaces": [],
+    "mainDirectories": [
+      "public",
+      "src"
+    ],
+    "gitBranches": null
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "public": {
+      "path": "public",
+      "purpose": "Public files",
+      "fileCount": 2,
+      "lastAccessed": 1785131286097,
+      "keyFiles": [
+        "Ads.txt",
+        "profile-2026.jpg"
+      ]
+    },
+    "src": {
+      "path": "src",
+      "purpose": "Source code",
+      "fileCount": 0,
+      "lastAccessed": 1785131286099,
+      "keyFiles": []
+    },
+    "src/app": {
+      "path": "src/app",
+      "purpose": "Application code",
+      "fileCount": 10,
+      "lastAccessed": 1785131286100,
+      "keyFiles": [
+        "error.tsx",
+        "favicon.ico",
+        "font.css"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "src/widgets/hero-slogans/lib/fluid-cursor.ts",
+      "accessCount": 10,
+      "lastAccessed": 1785132628342,
+      "type": "file"
+    },
+    {
+      "path": "src/widgets/hero-slogans/ui/HeroSlogans.tsx",
+      "accessCount": 3,
+      "lastAccessed": 1785132414887,
+      "type": "file"
+    },
+    {
+      "path": "src/app/layout.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1785131422790,
+      "type": "file"
+    },
+    {
+      "path": "src/app/page.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1785131422850,
+      "type": "file"
+    },
+    {
+      "path": "src/shared/ui/Reveal.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1785131589397,
+      "type": "file"
+    },
+    {
+      "path": "eslint.config.mjs",
+      "accessCount": 1,
+      "lastAccessed": 1785131597115,
+      "type": "file"
+    },
+    {
+      "path": "tsconfig.json",
+      "accessCount": 1,
+      "lastAccessed": 1785131597263,
+      "type": "file"
+    },
+    {
+      "path": "src/app/theme.css",
+      "accessCount": 1,
+      "lastAccessed": 1785131616966,
+      "type": "file"
+    },
+    {
+      "path": "src/app/globals.css",
+      "accessCount": 1,
+      "lastAccessed": 1785131617117,
+      "type": "file"
+    },
+    {
+      "path": "src/widgets/hero-slogans/ui/FluidCursorBackground.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1785131762846,
+      "type": "file"
+    },
+    {
+      "path": "src/widgets/hero-slogans/constants/index.ts",
+      "accessCount": 1,
+      "lastAccessed": 1785132409158,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}

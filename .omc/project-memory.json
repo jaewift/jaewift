@@ -107,21 +107,99 @@
       "type": "file"
     },
     {
+      "path": "src/widgets/profile/ui/ProfileTable.tsx",
+      "accessCount": 6,
+      "lastAccessed": 1785206971438,
+      "type": "file"
+    },
+    {
+      "path": "src/app/page.tsx",
+      "accessCount": 4,
+      "lastAccessed": 1785206900690,
+      "type": "file"
+    },
+    {
+      "path": "src/widgets/profile/ui/EducationTimeline.tsx",
+      "accessCount": 4,
+      "lastAccessed": 1785206938800,
+      "type": "file"
+    },
+    {
       "path": "src/widgets/hero-slogans/ui/HeroSlogans.tsx",
       "accessCount": 3,
       "lastAccessed": 1785132414887,
       "type": "file"
     },
     {
-      "path": "src/app/layout.tsx",
-      "accessCount": 1,
-      "lastAccessed": 1785131422790,
+      "path": "src/app/globals.css",
+      "accessCount": 3,
+      "lastAccessed": 1785206854619,
       "type": "file"
     },
     {
-      "path": "src/app/page.tsx",
+      "path": "src/widgets/profile/ui/ProfileSection.tsx",
+      "accessCount": 3,
+      "lastAccessed": 1785206903287,
+      "type": "file"
+    },
+    {
+      "path": "src/widgets/overview/ui/OverviewSection.tsx",
+      "accessCount": 3,
+      "lastAccessed": 1785206905189,
+      "type": "file"
+    },
+    {
+      "path": "src/widgets/overview/ui/HomeContent.tsx",
+      "accessCount": 3,
+      "lastAccessed": 1785206906233,
+      "type": "file"
+    },
+    {
+      "path": "src/widgets/footer/ui/Footer.tsx",
+      "accessCount": 3,
+      "lastAccessed": 1785206972647,
+      "type": "file"
+    },
+    {
+      "path": "src/app/theme.css",
+      "accessCount": 2,
+      "lastAccessed": 1785206695454,
+      "type": "file"
+    },
+    {
+      "path": "src/widgets/projects/ui/ProjectCard.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1785206916049,
+      "type": "file"
+    },
+    {
+      "path": "src/widgets/overview/ui/NavigationCard.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1785206916912,
+      "type": "file"
+    },
+    {
+      "path": "src/widgets/values-quote/ui/ValuesQuote.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1785206920438,
+      "type": "file"
+    },
+    {
+      "path": "src/widgets/profile/ui/LicenseList.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1785206921551,
+      "type": "file"
+    },
+    {
+      "path": "src/widgets/profile/ui/AwardList.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1785206924319,
+      "type": "file"
+    },
+    {
+      "path": "src/app/layout.tsx",
       "accessCount": 1,
-      "lastAccessed": 1785131422850,
+      "lastAccessed": 1785131422790,
       "type": "file"
     },
     {
@@ -143,18 +221,6 @@
       "type": "file"
     },
     {
-      "path": "src/app/theme.css",
-      "accessCount": 1,
-      "lastAccessed": 1785131616966,
-      "type": "file"
-    },
-    {
-      "path": "src/app/globals.css",
-      "accessCount": 1,
-      "lastAccessed": 1785131617117,
-      "type": "file"
-    },
-    {
       "path": "src/widgets/hero-slogans/ui/FluidCursorBackground.tsx",
       "accessCount": 1,
       "lastAccessed": 1785131762846,
@@ -164,6 +230,18 @@
       "path": "src/widgets/hero-slogans/constants/index.ts",
       "accessCount": 1,
       "lastAccessed": 1785132409158,
+      "type": "file"
+    },
+    {
+      "path": "src/widgets/tech-stacks/ui/TechStacks.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1785206720975,
+      "type": "file"
+    },
+    {
+      "path": "src/shared/ui/SectionTitle.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1785206855829,
       "type": "file"
     }
   ],

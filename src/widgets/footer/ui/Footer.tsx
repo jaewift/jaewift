@@ -1,6 +1,7 @@
 import { PersonalInfoApi } from "@/entities/personal-info/api";
 import { Link } from "@cher1shrxd/loading";
 import A from "next/link";
+import { Mail, Phone } from "lucide-react";
 
 const Footer = () => {
   const personalInfo = PersonalInfoApi.getPersonalInfo();
@@ -33,13 +34,13 @@ const Footer = () => {
             <div className="flex flex-col gap-2 sm:gap-2.5 md:gap-3 text-sm sm:text-base md:text-base">
               <a
                 href={`mailto:${personalInfo.email}`}
-                className="text-text/70 hover:text-primary transition-colors">
-                📧 {personalInfo.email}
+                className="inline-flex items-center gap-2 text-text/70 hover:text-primary transition-colors">
+                <Mail className="w-4 h-4" /> {personalInfo.email}
               </a>
               <a
                 href={`tel:${personalInfo.phone}`}
-                className="text-text/70 hover:text-primary transition-colors">
-                📞 {personalInfo.phone}
+                className="inline-flex items-center gap-2 text-text/70 hover:text-primary transition-colors">
+                <Phone className="w-4 h-4" /> {personalInfo.phone}
               </a>
             </div>
           </div>

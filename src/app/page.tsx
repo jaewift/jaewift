@@ -5,6 +5,7 @@ import { PersonalInfoApi } from "@/entities/personal-info/api";
 import { TechStackApi } from "@/entities/tech-stacks/api";
 import { ProjectApi } from "@/entities/project/api";
 import Reveal from "@/shared/ui/Reveal";
+import SectionTitle from "@/shared/ui/SectionTitle";
 import Intro from "@/widgets/Intro/ui/Intro";
 import TechStacks from "@/widgets/tech-stacks/ui/TechStacks";
 import HeroSlogans from "@/widgets/hero-slogans/ui/HeroSlogans";
@@ -81,9 +82,7 @@ export default async function HomePage() {
       />
       <section className="w-full max-w-440 mx-auto px-4 flex flex-col gap-4 sm:gap-5 md:gap-6 lg:gap-7 xl:gap-8 md:mb-64 mb-16">
         <Reveal>
-          <h1 className="text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-semibold font-playpen tracking-widest">
-            TECH STACKS.
-          </h1>
+          <SectionTitle>TECH STACKS</SectionTitle>
         </Reveal>
         <TechStacks data={techStacks.map((t) => t.properties)} />
       </section>

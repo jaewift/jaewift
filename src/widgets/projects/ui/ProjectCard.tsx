@@ -28,7 +28,7 @@ const ProjectCard = ({ project, projectId }: Props) => {
   return (
     <div
       onClick={handleCardClick}
-      className="group relative bg-surface rounded-lg sm:rounded-xl md:rounded-xl overflow-hidden transition-all duration-300 cursor-pointer">
+      className="group relative bg-surface border border-border hover:border-primary/40 rounded-lg sm:rounded-xl md:rounded-xl overflow-hidden card-lift cursor-pointer">
       <div className="p-4 flex flex-col gap-3 sm:gap-4 md:gap-5">
         <div className="flex items-center gap-2 sm:gap-2.5 md:gap-3">
           <span

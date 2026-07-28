@@ -3,6 +3,7 @@ import type { Education } from "@/entities/education/types";
 import type { License } from "@/entities/license/types";
 import type { PersonalInfo } from "@/entities/personal-info/types";
 import Reveal from "@/shared/ui/Reveal";
+import SectionTitle from "@/shared/ui/SectionTitle";
 import Image from "next/image";
 import ProfileTable from "./ProfileTable";
 import LicenseList from "./LicenseList";
@@ -25,9 +26,7 @@ const ProfileSection = ({
   return (
     <section className="w-full max-w-440 mx-auto px-4 sm:px-6 md:px-8 lg:px-10 xl:px-4 flex flex-col gap-8 sm:gap-10 md:gap-12 lg:gap-14 xl:gap-16 mb-32 sm:mb-40 md:mb-48 lg:mb-56 xl:mb-64">
       <Reveal triggerOnce>
-        <h1 className="text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-semibold font-playpen tracking-widest">
-          PROFILE.
-        </h1>
+        <SectionTitle>PROFILE</SectionTitle>
       </Reveal>
       <div className="w-full flex flex-col md:flex-row items-center justify-start gap-4 sm:gap-5 md:gap-6 lg:gap-7 xl:gap-8">
         <Reveal delay={0.3} triggerOnce>

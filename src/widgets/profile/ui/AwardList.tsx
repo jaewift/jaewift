@@ -15,7 +15,7 @@ const AwardList = ({ awards }: Props) => {
           {awards.map((award, index) => (
             <div
               key={index}
-              className="bg-surface rounded-sm p-3 px-4 sm:px-5 md:p-4 md:px-6 lg:px-7 xl:px-8 flex flex-col gap-0.5 md:gap-1">
+              className="bg-surface rounded-lg border border-border hover:border-primary/40 card-lift p-3 px-4 sm:px-5 md:p-4 md:px-6 lg:px-7 xl:px-8 flex flex-col gap-0.5 md:gap-1">
               <div className="text-[10px] sm:text-xs text-text/50 font-semibold">
                 {award.award_category.select.name || ""} ·{" "}
                 <span className="text-yellow-600">

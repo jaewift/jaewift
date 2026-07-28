@@ -3,6 +3,7 @@
 import { ResultResponse } from "@/shared/types/result-response";
 import { Project } from "@/entities/project/types";
 import Reveal from "@/shared/ui/Reveal";
+import SectionTitle from "@/shared/ui/SectionTitle";
 import { Link } from "@cher1shrxd/loading";
 import ProjectCard from "@/widgets/projects/ui/ProjectCard";
 
@@ -16,9 +17,7 @@ const HomeContent = ({ projects }: Props) => {
       <section className="w-full max-w-440 mx-auto px-4 flex flex-col gap-8 mb-16 md:mb-32">
         <Reveal triggerOnce>
           <div className="flex flex-col items-start gap-4">
-            <h1 className="text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-semibold font-playpen tracking-widest">
-              RECENT PROJECTS.
-            </h1>
+            <SectionTitle>RECENT PROJECTS</SectionTitle>
             <Link
               href="/projects"
               className="text-sm sm:text-base text-primary whitespace-nowrap text-nowrap self-end hover:underline">

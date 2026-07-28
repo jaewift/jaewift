@@ -15,7 +15,7 @@ const LicenseList = ({ licenses }: Props) => {
           {licenses.map((license, index) => (
             <div
               key={index}
-              className="bg-surface rounded-sm p-3 px-4 sm:px-5 md:p-4 md:px-6 lg:px-7 xl:px-8 flex items-center justify-between hover:bg-surface/80 transition-colors border border-border gap-2 sm:gap-3 md:gap-4">
+              className="bg-surface rounded-lg p-3 px-4 sm:px-5 md:p-4 md:px-6 lg:px-7 xl:px-8 flex items-center justify-between border border-border hover:border-primary/40 card-lift gap-2 sm:gap-3 md:gap-4">
               <div className="flex flex-col gap-1 sm:gap-1.5 md:gap-2">
                 <div className="text-base sm:text-lg lg:text-xl font-medium">
                   {license.name.title[0].plain_text}

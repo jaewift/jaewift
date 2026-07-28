@@ -11,7 +11,11 @@ const NavigationCard = ({ href, title, description }: Props) => {
   return (
     <Link
       href={href}
-      className="group relative bg-surface border border-border sm:border-2 rounded-lg sm:rounded-xl md:rounded-xl p-6 sm:p-8 md:p-9 lg:p-10 xl:p-12 flex flex-col items-start gap-2 sm:gap-3 md:gap-3 lg:gap-4 xl:gap-4 hover:border-primary transition-all duration-300 overflow-hidden">
+      className="group relative bg-surface border border-border sm:border-2 rounded-lg sm:rounded-xl md:rounded-xl p-6 sm:p-8 md:p-9 lg:p-10 xl:p-12 flex flex-col items-start gap-2 sm:gap-3 md:gap-3 lg:gap-4 xl:gap-4 hover:border-primary card-lift overflow-hidden">
+      <div
+        aria-hidden
+        className="absolute inset-0 bg-gradient-to-br from-primary/10 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"
+      />
       <div className="flex items-center justify-between w-full">
         <h3 className="text-2xl sm:text-3xl md:text-3xl lg:text-4xl xl:text-4xl font-bold font-playpen">{title}</h3>
         <ArrowRight className="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 lg:w-9 lg:h-9 xl:w-10 xl:h-10 text-primary transition-transform duration-300 -rotate-45 group-hover:rotate-0" />

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { LoadingBar } from "@cher1shrxd/loading";
+import { Analytics } from "@vercel/analytics/next";
 import { ThemeSetter } from "@/shared/themes/ThemeSetter";
 import Header from "@/widgets/header/ui/Header";
 import Footer from "@/widgets/footer/ui/Footer";
@@ -119,6 +120,7 @@ export default function RootLayout({
           <main>{children}</main>
           <Footer />
         </LenisProvider>
+        <Analytics />
       </body>
     </html>
   );
